@@ -51,7 +51,7 @@ const SignIn = () => {
           alignItems="center"
         >
           <FormControlLabel label="Remember me" control={<Checkbox />} />
-          <span>Need help?</span>
+          <a href="/help">Need help?</a>
         </Stack>
         <Stack
           justifyContent="space-between"
