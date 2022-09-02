@@ -1,0 +1,30 @@
+.sign-in {
+  background-image: url("../../../assets/background.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.sign-in::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 0;
+}
+
+.sign-in form {
+  color: white;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 80px 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12px;
+  border-radius: 4px;
+}
